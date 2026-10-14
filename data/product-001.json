@@ -1,0 +1,11 @@
+{
+  "name": "EcoBottle 500",
+  "serialNumber": "EB-2026-000123",
+  "manufacturer": "GreenWare Ltd",
+  "materials": [
+    "virgin PET 100%"
+  ],
+  "manufactureDate": "2026-10-01",
+  "carbonFootprintKgCO2e": 0.38,
+  "repairHistory": []
+}

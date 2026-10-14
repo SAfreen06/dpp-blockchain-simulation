@@ -1,0 +1,23 @@
+{
+  "name": "dpp-simulation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat --config ./hardhat.config.js compile",
+    "simulate": "hardhat --config ./hardhat.config.js run scripts/simulate.js",
+    "test": "hardhat --config ./hardhat.config.js test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.29.1",
+    "typescript": "5.6.3"
+  },
+  "overrides": {
+    "typescript": "$typescript"
+  }
+}
